@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Box Model Example </title>
+        <h1>The Box Model</h1>
+            <style>
+              *{
+                box-sizing: border-box;
+                margin-top: 20px;
+                }
+
+                body { 
+                    margin: 0;
+                    padding: 0;
+                    width: 300px;
+                    height: 50px;
+                    margin: 80px;
+                    padding: 20px;
+                    background-color: grey;
+                    overflow: auto
+                    
+                }
+
+                #box {
+                    margin: 10px;
+                    padding: 5px;
+                    background-color: blue;
+                    border: 5px solid black;
+                    width: 300px;
+                    
+                }
+
+                #content {
+                    background-color: green;
+                    margin: 5px;
+                    padding: 5px;
+                }
+
+                h1{
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                }
+            </style>
+    </head>
+    
+    <body>
+        <div>  
+        <div id="box">
+            <div id="content"> Here is an example of content</div>
+        </div>
+    </body>
+    <body>
+        <div>  
+        <div id="box">
+            <div id="content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, veniam quasi. Ullam, nam ducimus! Natus rem nulla error sed maxime molestias ea fugiat minima minus iste, aperiam neque sit ipsam.</div>
+        </div>
+    </body>
+</html>
